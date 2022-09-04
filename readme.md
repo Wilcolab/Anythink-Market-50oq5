@@ -14,7 +14,7 @@ Step 1: Clone the repository in to your local machine.
 
 Step 2: Install the docker using this link https://docs.docker.com/get-docker/ on you local machine
 
-Step 3: Then, run "docker-compose" on termial or cmd up from the project root directory to load Anythink's backend and frontend.
+Step 3: Then, run "docker-compose up" on termial or cmd up from the project root directory to load Anythink's backend and frontend.
 
 Step 4: If Docker is working correctly, the backend should be running and able to connect to your local database. Let's test this by pointing your browser to
 http://localhost:3000/api/ping
