@@ -49,7 +49,7 @@ ItemSchema.methods.toJSONFor = function(user) {
     slug: this.slug,
     title: this.title,
     description: this.description,
-    image: this.image,
+    image: this.image || "https://blis.com/wp-content/uploads/2022/05/placeholder-90.png",
     createdAt: this.createdAt,
     updatedAt: this.updatedAt,
     tagList: this.tagList,
